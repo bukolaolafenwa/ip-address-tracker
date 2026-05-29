@@ -7,6 +7,7 @@ import MapView from './components/MapView'
 import SearchBar from './components/SearchBar'
 import bgdesktop from './assets/images/pattern-bg-desktop.png'
 import bgmobile from './assets/images/pattern-bg-mobile.png'
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [ipData, setIpData] = useState<IpData | null>(null);
@@ -69,6 +70,7 @@ const handleSearch = async (query: string) => {
     </section>
 
    <MapView ipData={ipData} />
+   <Analytics />
 
     </main>
   );
