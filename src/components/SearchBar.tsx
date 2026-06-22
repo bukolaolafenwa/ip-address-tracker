@@ -38,11 +38,7 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
 {/* BUTTON */}
       <button
       type="submit"
-<<<<<<< HEAD
       className="
-=======
-       className="
->>>>>>> eaa6a5dc6e7a8c0070e14dd28a617696311763cb
      bg-black
       w-16
       h-10
@@ -72,50 +68,3 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
 };
 
 export default SearchBar;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import arrow from '../assets/images/icon-arrow.svg'
-
-// const SearchBar = () => {
-//   return (
-//         <form className='flex max-w-[550px] mx-auto mt-14 rounded-2xl items-center justify-center overflow-hidden'>
-//             {/* INPUT */}
-//             <input 
-//             type="text" 
-//             placeholder='Search for any IP address...' 
-//             className='flex-1 px-6 py-4 text-[18px] outline-none bg-white cursor-pointer'
-//             />
-
-//             {/* BUTTON */}
-//             <button 
-//             type='submit'
-//             className='bg-black px-6 text-white hover:bg-gray-800 transition cursor-pointer'
-//             >
-//               <img src={arrow} alt="arrow" />
-//             </button>
-
-//         </form>
-//   );
-// }
-
-// export default SearchBar;
