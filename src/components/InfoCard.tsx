@@ -38,7 +38,11 @@ const InfoCard = ({ ipData }: InfoCardProps) => {
   
 
  {/* IP Address */}
+<<<<<<< HEAD
     <div className='w-full md:w-[30%] px-6 pt-0 pb-0 text-center md:justify-center flex flex-col gap-2 mb-4 md:mb-0'>
+=======
+    <div className='w-full md:w-[25%] px-6 pt-0 pb-0 text-center md:justify-center flex flex-col gap-2 mb-4 md:mb-0'>
+>>>>>>> eaa6a5dc6e7a8c0070e14dd28a617696311763cb
         <h2 className='text-xs font-bold text-gray-400 tracking-[3px] mb-0 md:mb-4 uppercase'>
           IP Address
           </h2>

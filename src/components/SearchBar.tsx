@@ -38,7 +38,11 @@ const SearchBar = ({ onSearch }: SearchBarProps) => {
 {/* BUTTON */}
       <button
       type="submit"
+<<<<<<< HEAD
       className="
+=======
+       className="
+>>>>>>> eaa6a5dc6e7a8c0070e14dd28a617696311763cb
      bg-black
       w-16
       h-10
